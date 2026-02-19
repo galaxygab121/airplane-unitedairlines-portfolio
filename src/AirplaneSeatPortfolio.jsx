@@ -975,7 +975,7 @@ export default function AirplaneSeatPortfolio() {
         Contact
       </a>
       <a
-      href="/Gabrielle_Boyer_Baker_UAResume.pdf"
+      href="/Gabrielle_Boyer_Baker_UAresume.pdf"
       target="_blank"
       rel="noreferrer"
       className="flex w-full items-center justify-center gap-2 rounded-2xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-slate-800 transition"
