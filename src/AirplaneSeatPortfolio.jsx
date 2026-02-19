@@ -26,10 +26,6 @@ const seatMap = {
     type: "Experience",
     title: "NinjaTrader — Web Engineer Intern",
     icon: Briefcase,
-    link: {
-      label: "view Internship presentation",
-      url: "https://docs.google.com/presentation/d/11VF1v8G9KQ7RZQDvcCNS6EVXPSEzhPUWM80fuwLOeoU/edit?usp=sharing",
-    },
     content: [
       "Collaborated with cross-functional agile teams to develop and maintain full-stack web features using JavaScript, React, and .NET, contributing to internal trading tools and dashboards",
       "Wrote unit-tested, production-ready code, resolved technical bugs in legacy systems, and participated in sprint planning, story grooming, and end-of-quarter deployment preparation",
@@ -124,16 +120,6 @@ const seatMap = {
       "Mathematics for Machine Learning: Multivariate Calculus",
       "Mathematics for Machine Learning: Linear Algebra",
     ],
-    links: [
-      {
-        label: "View Multivariate Calculus Certificate",
-        url: "/certificates/ImperialCertificate1.pdf",
-      },
-      {
-        label: "View Linear Algebra Certificate",
-        url: "/certificates/ImperialCertificate2.pdf",
-      },
-    ],
     tags: ["Imperial College", "Mathematics for Machine Learning", "Certificates", "edX"],
   },
     C1: {
@@ -178,16 +164,6 @@ const seatMap = {
       "Introduction to computational thinking and data science",
       "Introduction to Computer Science and Programming using Python",
     ],
-    links: [
-      {
-        label: "View computational thinking and data science Certificate",
-        url: "/certificates/MITcertificate1.pdf",
-      },
-      {
-        label: "View Introduction to Computer Science Certificate",
-        url: "/certificates/MITcertificate2.pdf",
-      },
-    ],
     tags: ["MIT", "Intro to CS", "Computational Thinking", "Certificates", "edX"],
 
   },
@@ -229,16 +205,6 @@ const seatMap = {
     content: [
       "algorithms: design and analysis, part 1",
       "algorithms: design and analysis, part 2",
-    ],
-     links: [
-      {
-        label: "View Stanford Certificate 1",
-        url: "/certificates/StanfordCertificate1.pdf",
-      },
-      {
-        label: "View Stanford Certificate 2",
-        url: "/certificates/StanfordCertificate2.pdf",
-      },
     ],
     tags: ["Stanford", "Algorithms", "Design and Analysis", "Certificates", "edX"],
 
@@ -328,16 +294,6 @@ const seatMap = {
       "Robotics",
       "Issued via ColumbiaX (EDX)",
     ],
-    links: [
-      {
-        label: "View AI Certificate",
-        url: "/certificates/ColumbiaCertificate3.pdf",
-      },
-      {
-        label: "View Robotics Certificate",
-        url: "/certificates/ColumbiaCertificate4.png",
-      },
-    ],
     tags: ["ColumbiaX", "AI", "Robotics", "Certificates", "edX"],
   },
   F4: {
@@ -351,32 +307,6 @@ const seatMap = {
       "Graph Analytics for Big Data",
       "Big Data Capstone Project",
       "Big Data Modeling and Management Systems",
-    ],
-    links: [
-      {
-        label: "View Big Data Integration Certificate",
-        url: "/certificates/UCSD GBB 1.pdf",
-      },
-      {
-        label: "View Machine Learning Certificate",
-        url: "/certificates/UCSD GBB 2.pdf",
-      },
-      {
-        label: "View Introduction to Big Data Certificate",
-        url: "/certificates/UCSD GBB 3.pdf",
-      },
-      {
-        label: "View Graph Analytics Certificate",
-        url: "/certificates/UCSD GBB 4.pdf",
-      },
-      {
-        label: "View Capstone Certificate",
-        url: "/certificates/UCSD GBB 5.pdf",
-      },
-      {
-        label: "View Modeling and Management Systems Certificate",
-        url: "/certificates/UCSD GBB 6.pdf",
-      },
     ],
     tags: ["UCSD", "Big Data", "Certificates", "edX"],
 
@@ -974,15 +904,6 @@ export default function AirplaneSeatPortfolio() {
       >
         Contact
       </a>
-      <a
-  href={`${import.meta.env.BASE_URL}Gabrielle_Boyer_Baker_UAresume.pdf`}
-  target="_blank"
-  rel="noreferrer"
-  className="flex w-full items-center justify-center gap-2 rounded-2xl bg-slate-900 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-slate-800 transition"
->
-  <Ticket className="h-4 w-4" />
-  View Resume (PDF)
-</a>
 
     </div>
 
